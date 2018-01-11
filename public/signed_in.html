@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello, Blockstack!</title>
+  <link rel="stylesheet" href="bootstrap.min.css" />
+  <link rel="stylesheet" href="app.css" />
+  <script src="bundle.js"></script>
+  <script src="app2.js"></script>
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="jquery.slides.min.js"></script>
+
+<script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 940,
+        height: 528,
+        pagination: {
+          active:false
+        },
+        navigation: {
+          active:false
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="site-wrapper">
+    <div class="site-wrapper-inner">
+            
+      <div id="slides">
+          <div class="text_slide h1">
+            <div class="panel-welcome" id="section-2">
+              <div class="avatar-section">
+                <img src="https://s3.amazonaws.com/onename/avatar-placeholder.png" class="img-rounded avatar" id="avatar-image">
+              </div>
+              <span id="heading-name">Anonymous</span>! We did it!
+
+            </div>
+          </div>
+          <div class ="text_slide h1">
+
+            Ok let's break this down...
+
+          </div>
+
+          <div class ="text_slide h1">
+
+            This app is running on your computer (technically the browser you're using is running it), and it's using personal information (your name and profile photo), that is stored on the same computer.
+
+          </div>
+
+          <div class ="text_slide h1">
+
+            That's <div class="d">decentralized</div>.
+
+          </div>
+
+          <div class = "slide"><img src="tenor.gif" width="75%"></div>
+
+          <a href="#" class="btn btn-primary btn-lg slidesjs-previous slidesjs-navigation">Back</a>
+          <a href="#" class="btn btn-primary btn-lg slidesjs-next slidesjs-navigation">Next</a>
+
+      </div>
+
+      <br>
+      <p class="lead">
+        <a href="#" class="btn btn-primary btn-lg" id="signout-button">
+          Logout
+        </a>
+      </p>      
+
+    </div>
+ 
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>
